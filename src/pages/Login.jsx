@@ -5,7 +5,7 @@ import { useState } from 'react'
 import axios from 'axios';
 import {useCookies} from 'react-cookie'
 import {useNavigate} from 'react-router-dom'
-const Login = () => {
+const Login=()=> {
     const [username,setusername]=useState('');
     const [password,setpassword]=useState('');
     const[_,setCookies]=useCookies(["access_token"])
@@ -18,8 +18,9 @@ const Login = () => {
                     nav('/error')
             }else{
             setCookies("access_token",res.data.token);
-            nav('/');
             console.log(res.data.UserID);
+            console.log(_);
+            nav('/');
             window.localStorage.setItem("UserId",res.data.userID)
             }
             
