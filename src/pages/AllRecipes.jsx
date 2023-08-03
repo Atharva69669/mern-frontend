@@ -29,7 +29,7 @@ const AllRecipes = () => {
          }
          fetchRecipe();
          fetchSavedRecipe();
-    }, []);
+    }, [userID,recipes]);
  
     const saveRecipe=async(recipeID)=>{
         try{
