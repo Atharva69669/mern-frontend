@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/Home.css'
 const Home = () => {
 
@@ -20,8 +21,8 @@ const Home = () => {
           <section className="featured">
             <h1>Featured</h1>
             <div className="cards">
-              <a href="/blog" className="card card-1">
-                <article>
+              <Link to="/blog" className="card card-1">
+              <article>
                   <img src="https://media.istockphoto.com/id/1081422898/photo/pan-fried-duck.jpg?s=612x612&w=0&k=20&c=kzlrX7KJivvufQx9mLd-gMiMHR6lC2cgX009k9XO6VA=" alt="Food" />
                   <div className="tag-1">Article</div>
                   <div className="comments">
@@ -30,7 +31,9 @@ const Home = () => {
                   </div>
                   <h2>Insights from the esteemed culinary maestro, Ranveer Brar</h2>
                 </article>
-              </a>
+              </Link>
+                
+              
               <a href="/" className="card card-2">
                 <article>
                   <img src="https://i.ibb.co/nDjPnYT/2.jpg" alt="Food" />
