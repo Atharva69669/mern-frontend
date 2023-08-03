@@ -43,10 +43,10 @@ const Login = () => {
                                 </div>
                                 <div className="log-in-area column">
                                     <h2>Log in</h2>
-                                    <label className="column" for=""> USER NAME
+                                    <label className="column" htmlFor=""> USER NAME
                                         <input type="text" value={username} onChange={(e)=>{setusername(e.target.value)}}/>
                                     </label>
-                                    <label className="column" for=""> PASSWORD
+                                    <label className="column" htmlFor=""> PASSWORD
                                         <input type="password" value={password} onChange={(e)=>{setpassword(e.target.value)}}/>
                                     </label>
 
