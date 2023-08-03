@@ -33,7 +33,7 @@ const SavedRecipes = () => {
          }
         fetchRecipe();
         fetchSavedRecipe();
-    }, []);
+    }, [userID]);
  
     const saveRecipe=async(recipeID)=>{
         try{
