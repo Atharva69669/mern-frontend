@@ -10,10 +10,10 @@ const Home = () => {
           <nav className="search">
             <ul>
               <li>
-                <a href="/allrecipe" className="btn">Explore Recipes</a>
+                <Link  to ='/allrecipe' className='btn'>Explore Recipes</Link>
               </li>
               <li>
-                <a href="/createrecipe" className="btn">Add a Recipe </a>
+              <Link  to ='/createrecipe' className='btn'>Add a recipe</Link>
               </li>
             </ul>
           </nav>
