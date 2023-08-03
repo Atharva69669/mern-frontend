@@ -42,7 +42,7 @@ const Home = () => {
                   <h2>Experience the beauty of Greek Cuisine</h2>
                 </article>
               </a>
-              <a href="#" className="card card-3">
+              <a href="/" className="card card-3">
                 <article>
                   <img src="https://i.ibb.co/dtdTFK9/3.jpg" alt="Food" />
                   <div className="tag-1">Article</div>
