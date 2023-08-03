@@ -31,7 +31,7 @@ const Home = () => {
                   <h2>Insights from the esteemed culinary maestro, Ranveer Brar</h2>
                 </article>
               </a>
-              <a href="#" className="card card-2">
+              <a href="/" className="card card-2">
                 <article>
                   <img src="https://i.ibb.co/nDjPnYT/2.jpg" alt="Food" />
                   <div className="tag-1">Recipe</div>
@@ -53,7 +53,7 @@ const Home = () => {
                   <h2>Learn Baking Cakes and Bread</h2>
                 </article>
               </a>
-              <a href="#" className="card card-4">
+              <a href="/" className="card card-4">
                 <article>
                   <img src="https://i.ibb.co/PryN0m3/4.jpg" alt="Food" />
                   <div className="tag-1">Video</div>
@@ -72,7 +72,7 @@ const Home = () => {
             <section className="latest">
               <h1>Latest Articles</h1>
               <div className="cards">
-                <a href="#" className="card">
+                <a href="/" className="card">
                   <article>
                     <div className="img-container">
                       <img src="https://i.ibb.co/Bz5gs6F/5.jpg" alt="Food" />
@@ -98,7 +98,7 @@ const Home = () => {
                     </div>
                   </article>
                 </a>
-                <a href="#" className="card">
+                <a href="/" className="card">
                   <article>
                     <div className="img-container">
                       <img src="https://i.ibb.co/K52cn8p/6.jpg" alt="Food" />
@@ -124,7 +124,7 @@ const Home = () => {
                     </div>
                   </article>
                 </a>
-                <a href="#" className="card">
+                <a href="/" className="card">
                   <article>
                     <div className="img-container">
                       <img src="https://i.ibb.co/xJ83nRC/7.jpg" alt="Food" />
@@ -150,7 +150,7 @@ const Home = () => {
                     </div>
                   </article>
                 </a>
-                <a href="#" className="card">
+                <a href="/" className="card">
                   <article>
                     <div className="img-container">
                       <img src="https://i.ibb.co/xYzgxhJ/8.jpg" alt="Food" />
@@ -176,7 +176,7 @@ const Home = () => {
                     </div>
                   </article>
                 </a>
-                <a href="#" className="card">
+                <a href="/" className="card">
                   <article>
                     <div className="img-container">
                       <img src="https://i.ibb.co/LP6MV7L/9.jpg" alt="Food" />
@@ -209,7 +209,7 @@ const Home = () => {
                 <h1>Popular Recipes</h1>
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <article>
                         <img src="https://i.ibb.co/qyj59nM/10.jpg" alt="Food" />
                         <div className="description">
@@ -223,7 +223,7 @@ const Home = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <article>
                         <img src="https://i.ibb.co/sgjsbjY/11.jpg" alt="Food" />
                         <div className="description">
@@ -237,7 +237,7 @@ const Home = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <article>
                         <img src="https://i.ibb.co/DwXPpmk/12.jpg" alt="Food" />
                         <div className="description">
