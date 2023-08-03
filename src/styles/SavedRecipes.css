@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+ * {
+	 margin: 0;
+	 padding: 0;
+	 font-family: 'Roboto', sans-serif;
+	 list-style-type: none;
+	 text-decoration: none;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 -o-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+
+.flex-box{
+    display: flex;
+    flex-flow: row wrap;
+}
+@media (max-width: 1110px) {
+	.cardi{
+      width: 30%;
+	  column-gap:2rem;
+	}
+  }
+  @media (max-width: 800px) {
+	.flex-box{
+      flex-direction: column;
+	}
+  }
+ img {
+	 width: 100%;
+ }
+ html, body {
+	 height: 100%;
+}
+
+ .cardi{
+	 position: relative;
+	 background: #fff;
+	 max-width: 600px;
+	 margin: 20px auto;
+	 box-shadow: 0px 0px 5px 2px rgb(114, 114, 114);
+	 width: 50%;
+}
+ .cardi .header {
+	 min-height: 350px;
+}
+ .cardi .header .icon a .fa-heart-o {
+	 position: absolute;
+	 left: 85%;
+	 bottom: 30.7%;
+	 background: #17bebb;
+	 color: #fff;
+	 font-size: 1.3em;
+	 font-weight: bold;
+	 padding: 15px;
+	 border-radius: 50%;
+	 box-shadow: 0px 5px 30px 1px #17bebb;
+}
+ .cardi .text .food {
+	 color: #212129;
+	 text-align: left;
+	 font-weight: normal;
+	 text-transform: uppercase;
+	 letter-spacing: 0.1em;
+	 margin: 5px 30px;
+}
+ .cardi .text .fa-clock-o {
+	 color: #9b9b9b;
+	 margin: 0 30px;
+}
+ .cardi .text .fa-users {
+	 color: #9b9b9b;
+}
+
+ .cardi .info {
+	 margin: 10px 30px;
+}
+ .cardi a.btn {
+	 display: block;
+	 background: #ef3e36;
+	 color: #fff;
+	 position: relative;
+	 text-transform: uppercase;
+	 letter-spacing: 0.1em;
+	 text-align: center;
+	 padding: 10px;
+	 transition: 250ms;
+}
+ .cardi a.btn:hover {
+	 background: #17bebb;
+	 transition: 250ms;
+}
+ 
+.save{
+	width: 80px;
+	height: 50px;
+	margin: 20px;
+}
