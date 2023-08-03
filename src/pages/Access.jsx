@@ -12,7 +12,7 @@ const Access = (props) => {
         }
 
         console.log("Component:", Component); // Debugging
-    }, [])
+    }, [Component,nav])
 
 
     return (
